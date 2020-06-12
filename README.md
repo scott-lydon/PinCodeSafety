@@ -1,0 +1,1 @@
+A Snap Module to ensure any development team can ensure spin code safety
