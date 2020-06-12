@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -16,6 +16,7 @@
 		7536E2B92470206B0002BB65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7536E2B72470206B0002BB65 /* LaunchScreen.storyboard */; };
 		7536E2C42470206B0002BB65 /* PinCodeSafetyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536E2C32470206B0002BB65 /* PinCodeSafetyTests.swift */; };
 		7536E2CF2470206B0002BB65 /* PinCodeSafetyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7536E2CE2470206B0002BB65 /* PinCodeSafetyUITests.swift */; };
+		755E142E2494326A00AD3F5B /* PincodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755E142D2494326A00AD3F5B /* PincodeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		7536E2CA2470206B0002BB65 /* PinCodeSafetyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PinCodeSafetyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7536E2CE2470206B0002BB65 /* PinCodeSafetyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeSafetyUITests.swift; sourceTree = "<group>"; };
 		7536E2D02470206B0002BB65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		755E142D2494326A00AD3F5B /* PincodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PincodeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 				7536E2C22470206B0002BB65 /* PinCodeSafetyTests */,
 				7536E2CD2470206B0002BB65 /* PinCodeSafetyUITests */,
 				7536E2A7247020680002BB65 /* Products */,
+				96DA9D5B6A749A0658163195 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +107,7 @@
 				7536E2A9247020680002BB65 /* AppDelegate.swift */,
 				7536E2AB247020680002BB65 /* SceneDelegate.swift */,
 				7536E2AD247020680002BB65 /* ViewController.swift */,
+				755E142D2494326A00AD3F5B /* PincodeViewController.swift */,
 				7536E2AF247020680002BB65 /* Main.storyboard */,
 				7536E2B52470206B0002BB65 /* Assets.xcassets */,
 				7536E2B72470206B0002BB65 /* LaunchScreen.storyboard */,
@@ -129,6 +133,13 @@
 				7536E2D02470206B0002BB65 /* Info.plist */,
 			);
 			path = PinCodeSafetyUITests;
+			sourceTree = "<group>";
+		};
+		96DA9D5B6A749A0658163195 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +276,7 @@
 				7536E2B4247020680002BB65 /* PinCodeSafety.xcdatamodeld in Sources */,
 				7536E2AE247020680002BB65 /* ViewController.swift in Sources */,
 				7536E2AA247020680002BB65 /* AppDelegate.swift in Sources */,
+				755E142E2494326A00AD3F5B /* PincodeViewController.swift in Sources */,
 				7536E2AC247020680002BB65 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,0 +1,16 @@
+PODS:
+  - SwiftInterview (0.1.0)
+
+DEPENDENCIES:
+  - SwiftInterview
+
+SPEC REPOS:
+  trunk:
+    - SwiftInterview
+
+SPEC CHECKSUMS:
+  SwiftInterview: 5699472e7af550521d285331654d6e116591e8ab
+
+PODFILE CHECKSUM: 74de6217cf2f31b5444d5678cfb66af5d302541b
+
+COCOAPODS: 1.8.4
